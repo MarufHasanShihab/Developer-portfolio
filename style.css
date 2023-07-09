@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+header{
+  background: #FFF8F3;
+  background-image: url(images/header_bg.png), url('images/developer.png') ;
+  background-repeat: no-repeat;
+  background-position: bottom right,top left;
+  height: 110vh;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+nav .logo{
+color: #181818;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+}
+
+.orange{
+  color: #FD6E0A;;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color:#474747
+}
+
+.button-praymari{
+  background-color: #FD6E0A;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.banner{
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .profile img {
+  width: 500px;
+  margin-right: 35px;
+}
+
+.banner-gretting{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.banner-text{
+  max-width: 500px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner .button-praymari{
+  margin-top: 30px;
+}
+
+
+/* Manin Section About */
+main section{
+  margin-top: 130px;
+}
+.about{
+  padding: 130px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+   margin: 130px 0px; 
+}
+
+.section-title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-dirapation{
+color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+.about-info-containar{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.about-info{
+  color: #757575;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.dirapation-info{
+  color: #181818;
+  margin-top: 10px;
+}
+
+/* WHAT I DO */
+#what-i-do{
+  padding: 30px 150px;
+}
+/* SKILL */
+.skill-containar{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+  margin-top: 15px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+.skill-dirapation{
+  margin-top: 15px;
+  color:  #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+
+/* RESUME SECTION STYLE */
+.resume-colum-title{
+  color:  #474747;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+}
+.resume-containar{
+  display: flex;
+  gap: 60px;
+  margin-top: 35px;
+}
+.resume-iteam-title{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-iteam-institute{
+  color:  #757575;
+  font-size: 20px;
+}
+.resume-iteam-description{
+  color:  #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+.resume-iteam-title, .resume-iteam-institute, .resume-iteam-description{
+  margin-top: 20px;
+}
+hr{
+  color: #757575;
+  margin-top: 20px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Fotter */
+footer{
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer-colum{
+  width: 50%;
+}
+
+.contact input[type="text"],input[type="email"], textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+}
+.social-link a{
+  margin-left: 20px;
+}
